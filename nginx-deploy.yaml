@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx-app
-        image: khw1027/nginxweb:v3.0
+        image: khw1027/nginxweb:v2.0
         ports:
         - containerPort: 80
         resources:
